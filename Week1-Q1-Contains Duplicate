@@ -1,0 +1,4 @@
+var containsDuplicate = function(nums) {
+    const numSet = new Set(nums); // hashmap is the first instinct but just comparing with the set seems to be easier.
+    console.log(numSet.size < nums.length);
+};
